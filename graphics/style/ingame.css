@@ -1,0 +1,20 @@
+.content {
+	width: 1920px;
+	height: 1080px;
+}
+
+#match-name{
+	color: #fbfffe;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #23272a;
+	position: absolute;
+	top: 782px;
+	left: 96px;
+}
+
+#logo {
+	display: block;
+  float: right;
+  width: 10%;
+}

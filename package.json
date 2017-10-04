@@ -1,0 +1,58 @@
+{
+  "name": "mwl19-layout",
+  "version": "0.0.0",
+  "description": "NodeCG driven overlays for multiple esport tournament broadcasts",
+  "homepage": "",
+  "author": {
+    "name": "Kevin Wells",
+    "email": "nivek706@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "",
+    "dashboardPanels": [{
+      "name": "mwl19-layout",
+      "title": "mwl19-layout",
+      "width": 4,
+      "file": "mwl19-layout.html",
+      "headerColor": "#0080ff"
+    }],
+    "graphics": [{
+      "file": "intro.html",
+      "width": 1920,
+      "height": 1080,
+      "singleInstance": false
+    }, {
+      "file": "ingame.html",
+      "width": 1920,
+      "height": 1080,
+      "singleInstance": false
+    }, {
+      "file": "brb.html",
+      "width": 1920,
+      "height": 1080,
+      "singleInstance": false
+    }, {
+      "file": "caster-fullscreen.html",
+      "width": 1920,
+      "height": 1080,
+      "singleInstance": false
+    }, {
+      "file": "upcoming-match-2cam.html",
+      "width": 1920,
+      "height": 1080,
+      "singleInstance": false
+      }]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git"
+}

@@ -1,0 +1,44 @@
+.content {
+				z-index: 2;
+}
+
+.glass-bg {
+				position: absolute;
+				background-color: #9e9e9e;
+				width: 1920px;
+				height: 1080px;
+				opacity: 0.8;
+				z-index: 1;
+}
+
+
+#countdown-area {
+				display: block;
+				margin: auto;
+				text-align: center;
+				margin-top: 23%;
+				font-size: 88px;
+}
+
+#clock-main {
+				color: black;
+				font-family: "Droid Sans Mono";
+				font-weight: normal;
+				position: relative;
+}
+
+#div-brb {
+				position: absolute;
+				text-align: center;
+				left: 840px;
+				top: 292px;
+				font-size: 26px;
+}
+
+#obp-logo {
+				display: block;
+				margin: auto;
+				text-align: center;
+				margin-top: 10%;
+				top: 80%;
+}
