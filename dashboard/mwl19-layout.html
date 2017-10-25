@@ -10,52 +10,116 @@
 </head>
 
 <body>
-	<div class="btn-group btn-group-justified">
+	<h2>Match Info</h2>
+	<div class="input-group">
+		<input type="text" class="form-control" id="matchName" placeholder="Match Name">
+		<span class="input-group-btn">
+					<button type="button" type="button" id="ctrl-matchName" class="btn btn-default">Update</button>
+				</span>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">Best of:</span>
+		<input type="text" class="form-control" id="bestOfNum">
+		<span class="input-group-btn">
+					<button type="button" type="button" id="ctrl-bestOfNum" class="btn btn-default">Update</button>
+				</span>
+	</div>
+
+	<h2>Player Info</h2>
+	<form class="form-inline">
 		<div class="form-group">
-			<label for="matchName">Match Name</label>
-			<div class="input-group">
-				<input type="text" class="form-control" id="matchName" placeholder="Match name">
-				<span class="input-group-btn">
-				<button type="button" type="button" id="ctrl-matchname" class="btn btn-default">Update</button>
-			</span>
+			<label for="player1NameInput">Player 1</label>
+			<input type="text" class="form-control" id="player1NameInput" placeholder="Player 1 Name">
+
+			<label for="player2NameInput">Player 2</label>
+			<input type="text" class="form-control" id="player2NameInput" placeholder="Player 2 Name">
+
+			<div class="form-group">
+				<button type="button" id="ctrl-updateAllPlayerInfo" class="btn-primary btn btn-sm">Update All Players</button>
 			</div>
 		</div>
+	</form>
+
+	<h2>Caster Info</h2>
+	<label for="ctrl-casterNumSelector">Number of Casters</label>
+	<select id="ctrl-casterNumSelector">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<p>Caster 1</p>
+	<form class="form-inline">
 		<div class="form-group">
-			<label for="matchName">Caster Info</label>
-			<div class="input-group">
-				<input type="text" class="form-control" id="casterNames" placeholder="Caster Names">
-				<span class="input-group-btn">
-				<button type="button" type="button" id="ctrl-casterNames" class="btn btn-default">Update</button>
-			</span>
-			</div>
+			<!--<label for="caster1NicknameInput">Nickname</label>-->
+			<input type="text" class="form-control" id="caster1NicknameInput" placeholder="Caster 1 Nickname">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster1FullNameInput">Full Name</label>-->
+			<input type="text" class="form-control" id="caster1FullNameInput" placeholder="Caster 1 Full Name">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster1SocialInput">Social Media</label>-->
+			<input type="text" class="form-control" id="caster1SocialInput" placeholder="Caster 1 Social Media">
 		</div>
 
-		Timer/Countdown
-		<div class="radio">
-			<label>
+		<p>Caster 2</p>
+		<div class="form-group">
+			<!--<label for="caster2NicknameInput">Nickname</label>-->
+			<input type="text" class="form-control" id="caster2NicknameInput" placeholder="Caster 2 Nickname">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster2FullNameInput">Full Name</label>-->
+			<input type="text" class="form-control" id="caster2FullNameInput" placeholder="Caster 2 Full Name">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster2SocialInput">Social Media</label>-->
+			<input type="text" class="form-control" id="caster2SocialInput" placeholder="Caster 2 Social Media">
+		</div>
+		<p>Caster 3</p>
+		<div class="form-group">
+			<!--<label for="caster3NicknameInput">Nickname</label>-->
+			<input type="text" class="form-control" id="caster3NicknameInput" placeholder="Caster 3 Nickname">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster3FullNameInput">Full Name</label>-->
+			<input type="text" class="form-control" id="caster3FullNameInput" placeholder="Caster 3 Full Name">
+		</div>
+		<div class="form-group">
+			<!--<label for="caster3SocialInput">Social Media</label>-->
+			<input type="text" class="form-control" id="caster3SocialInput" placeholder="Caster 3 Social Media">
+		</div>
+		<div class="form-group">
+			<button type="button" id="ctrl-updateAllCasterInfo" class="btn-primary btn btn-sm">Update All Casters</button>
+		</div>
+	</form>
+
+	<h2>Timer/Countdown</h2>
+	<div class="radio">
+		<label>
 				<input type="radio" name="radioTime" value="120000">2 minutes</label>
-		</div>
-		<div class="radio">
-			<label>
+	</div>
+	<div class="radio">
+		<label>
 				<input type="radio" name="radioTime" value="180000">3 minutes</label>
-		</div>
-		<div class="radio">
-			<label>
+	</div>
+	<div class="radio">
+		<label>
 				<input type="radio" name="radioTime" value="300000">5 minutes</label>
-		</div>
-		<div class="radio">
-			<label>
+	</div>
+	<div class="radio">
+		<label>
 				<input type="radio" name="radioTime" value="custom">
 				<input type="number" id="customTime" placeholder="Custom Amount (minutes)">
 			</label>
-		</div>
-		<div>
-			<button type="button" id="ctrl-startTimer" class="btn-primary btn btn-sm">Update Timer</button>
-		</div>
+	</div>
+	<div>
+		<button type="button" id="ctrl-startTimer" class="btn-primary btn btn-sm">Update Timer</button>
+	</div>
 
 	</div>
 
-	<script src="niv-tournament.js"></script>
+	<script src="mwl19-layout.js"></script>
+	<script src="Caster.js"></script>
 </body>
 
 </html>

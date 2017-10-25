@@ -4,7 +4,7 @@
 
 .glass-bg {
 				position: absolute;
-				background-color: #9e9e9e;
+				background-color: #4f4f4f;
 				width: 1920px;
 				height: 1080px;
 				opacity: 0.8;
@@ -31,7 +31,7 @@
 				position: absolute;
 				text-align: center;
 				left: 840px;
-				top: 292px;
+				top: 360px;
 				font-size: 26px;
 }
 
