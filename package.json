@@ -28,31 +28,38 @@
       "headerColor": "#f23030"
     }],
     "graphics": [{
-      "file": "intro.html",
-      "width": 1920,
-      "height": 1080,
-      "singleInstance": false
-    }, {
-      "file": "ingame.html",
-      "width": 1920,
-      "height": 1080,
-      "singleInstance": false
-    }, {
-      "file": "brb.html",
-      "width": 1920,
-      "height": 1080,
-      "singleInstance": false
-    }, {
-      "file": "caster-fullscreen.html",
-      "width": 1920,
-      "height": 1080,
-      "singleInstance": false
-    }, {
-      "file": "upcoming-match-2cam.html",
-      "width": 1920,
-      "height": 1080,
-      "singleInstance": false
-      }]
+        "file": "intro.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }, {
+        "file": "ingame.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }, {
+        "file": "brb.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }, {
+        "file": "outro.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "caster-fullscreen.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }, {
+        "file": "upcoming-match-2cam.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ]
   },
   "repository": "https://github.com/nodecg/nodecg.git"
 }
